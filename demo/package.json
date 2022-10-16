@@ -1,0 +1,13 @@
+{
+	"name": "demo",
+	"version": "0.1.0",
+	"type": "module",
+	"dependencies": {
+		"@acab/reset.css": "*",
+		"astro": "^1.5.0"
+	},
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build"
+	}
+}

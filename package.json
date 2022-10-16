@@ -1,0 +1,39 @@
+{
+	"name": "package-starter",
+	"version": "0.0.0",
+	"private": true,
+	"workspaces": [
+		"package",
+		"demo"
+	],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev --parallel"
+	},
+	"devDependencies": {
+		"prettier": "2",
+		"turbo": "latest"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"dependencies": {},
+	"packageManager": "pnpm@7.11.0",
+	"prettier": {
+		"jsxSingleQuote": true,
+		"singleQuote": true,
+		"printWidth": 100,
+		"useTabs": true,
+		"plugins": [
+			"./node_modules/prettier-plugin-astro"
+		],
+		"overrides": [
+			{
+				"files": "*.astro",
+				"options": {
+					"parser": "astro"
+				}
+			}
+		]
+	}
+}

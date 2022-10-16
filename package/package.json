@@ -1,0 +1,14 @@
+{
+	"name": "@acab/reset.css",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mayank99/reset.css.git"
+	},
+	"type": "module",
+	"main": "index.css",
+	"exports": {
+		".": "./index.css"
+	}
+}
