@@ -29,7 +29,7 @@ import '@acab/reset.css';
 
 Or use it directly from a CDN:
 
-```html
+```css
 @import 'https://unpkg.com/@acab/reset';
 ```
 
