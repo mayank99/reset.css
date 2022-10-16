@@ -8,6 +8,7 @@ A style reset that embraces modern CSS features to give you a better base to sta
 - Auto dark mode using `color-scheme`.
 - `system-ui` font pre-applied.
 - Accessible, consistent focus outlines.
+- `.visually-hidden` class baked in.
 
 See the [source code](https://github.com/mayank99/reset.css/blob/main/package/index.css) if you're curious about the full set of rules.
 
@@ -50,3 +51,11 @@ And then apply the first layer name while importing this reset.
 ```css
 @import '@acab/reset.css' layer(reset);
 ```
+
+### Visually hidden (aka SR only)
+
+Every project needs "visually hidden" styles for screenreader-only text, so this reset has it built in.
+
+It's available through the `.visually-hidden` class and all the rules in it use `!important` so that they can't be overridden by a higher-priority layer.
+
+When a visually-hidden element is focused or an element inside it is focused, then these styles will automatically be undone. Additionally, a `.not-visually-hidden` class is available to undo these styles on some other condition.
