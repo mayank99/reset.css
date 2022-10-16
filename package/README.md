@@ -30,7 +30,7 @@ import '@acab/reset.css';
 Or use it directly from a CDN:
 
 ```css
-@import 'https://unpkg.com/@acab/reset';
+@import 'https://unpkg.com/@acab/reset.css';
 ```
 
 ### Cascade layers
