@@ -9,6 +9,8 @@ A style reset that embraces modern CSS features to give you a better base to sta
 - `system-ui` font pre-applied.
 - Accessible, consistent focus outlines.
 
+See the [source code](https://github.com/mayank99/reset.css/blob/main/package/index.css) if you're curious about the full set of rules.
+
 ## Usage
 
 Install and import the package (requires a bundler):
