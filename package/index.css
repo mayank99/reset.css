@@ -28,6 +28,10 @@
 	color: inherit;
 }
 
+:where(textrea) {
+	resize: vertical;
+}
+
 :where(button, label, select, summary, [role='button'], [role='option']) {
 	cursor: pointer;
 }
