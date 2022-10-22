@@ -4,7 +4,7 @@ A style reset that embraces modern CSS features to give you a better base to sta
 
 ## Features
 
-- Designed for cascade layers while still using `:where` to keep a low specificity for non-layer setups.
+- Designed for cascade layers while still using `:where` to keep a low specificity for unlayered setups.
 - Auto dark mode using `color-scheme`.
 - `system-ui` font pre-applied.
 - Accessible, consistent focus outlines.
