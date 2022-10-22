@@ -28,11 +28,11 @@
 	color: inherit;
 }
 
-:where(button, label) {
+:where(button, label, select, summary, [role="button"], [role="option"]) {
 	cursor: pointer;
 }
 
-:where(button:disabled) {
+:where(:disabled) {
 	cursor: not-allowed;
 }
 
@@ -50,7 +50,6 @@
 
 :where(ul, ol) {
 	list-style: none;
-	padding: 0;
 }
 
 :where(img, svg, video, canvas, audio, iframe, embed, object) {
