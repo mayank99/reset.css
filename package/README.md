@@ -59,3 +59,7 @@ Every project needs "visually hidden" styles for screenreader-only text, so this
 It's available through the `.visually-hidden` class and all the rules in it use `!important` so that they can't be overridden by a higher-priority layer.
 
 When a visually-hidden element is focused or an element inside it is focused, then these styles will automatically be undone. Additionally, a `.not-visually-hidden` class is available to undo these styles on some other condition.
+
+### Focus outlines
+
+By default, focus styles can be very inconsistent (and even inaccessible) across browsers. This reset normalizes them to a 2px solid outline that has the [`Highlight`](https://www.w3.org/TR/css-color-4/#system-color-values) color. You can modify this using the `--focus-color` custom property (you might want it to match your accent color).
