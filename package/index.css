@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+:where([hidden]) {
+	display: none !important;
+}
+
 :where(html) {
 	-webkit-text-size-adjust: none;
 	color-scheme: dark light;
