@@ -63,3 +63,11 @@ When a visually-hidden element is focused or an element inside it is focused, th
 ### Focus outlines
 
 By default, focus styles can be very inconsistent (and even inaccessible) across browsers. This reset normalizes them to a 2px solid outline that has the [`Highlight`](https://www.w3.org/TR/css-color-4/#system-color-values) color. You can modify this using the `--focus-color` custom property (you might want it to match your accent color).
+
+## Acknowledgements
+
+This project was inspired by some of the existing, popular CSS resets:
+
+- Andy Bell's [modern CSS reset](https://piccalil.li/blog/a-modern-css-reset/)
+- Josh W Comeau's [custom CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+- Jen Simmons's [CSS remedy](https://github.com/jensimmons/cssremedy)
