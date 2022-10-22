@@ -28,7 +28,7 @@
 	color: inherit;
 }
 
-:where(button, label, select, summary, [role="button"], [role="option"]) {
+:where(button, label, select, summary, [role='button'], [role='option']) {
 	cursor: pointer;
 }
 
