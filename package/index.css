@@ -1,4 +1,6 @@
-:where(*, *::before, *::after) {
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -89,7 +91,7 @@
 	outline-offset: 2px;
 }
 
-:where(.visually-hidden:not(:where(:focus, :active, :focus-within, .not-visually-hidden))) {
+:where(.visually-hidden:not(:focus, :active, :focus-within, .not-visually-hidden)) {
 	clip-path: inset(50%) !important;
 	height: 1px !important;
 	width: 1px !important;
