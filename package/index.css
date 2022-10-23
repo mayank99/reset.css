@@ -32,7 +32,7 @@
 	color: inherit;
 }
 
-:where(textrea) {
+:where(textarea) {
 	resize: vertical;
 }
 
