@@ -22,8 +22,8 @@
 }
 
 :where(body) {
-	min-height: 100vh;
-	min-height: 100dvh;
+	min-block-size: 100%;
+	min-block-size: 100dvb;
 	line-height: 1.5;
 	font-family: system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -36,6 +36,7 @@
 
 :where(textarea) {
 	resize: vertical;
+	resize: block;
 }
 
 :where(button, label, select, summary, [role='button'], [role='option']) {
@@ -67,8 +68,8 @@
 }
 
 :where(img, picture, svg) {
-	max-width: 100%;
-	height: auto;
+	max-inline-size: 100%;
+	block-size: auto;
 }
 
 :where(p, h1, h2, h3, h4, h5, h6) {
@@ -80,9 +81,10 @@
 }
 
 :where(hr) {
-	border-width: 1px 0 0 0;
+	border: none;
+	border-block-start: 1px solid;
 	color: inherit;
-	height: 0;
+	block-size: 0;
 	overflow: visible;
 }
 
