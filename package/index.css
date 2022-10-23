@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-:where([hidden]) {
+:where([hidden]:not([hidden='until-found'])) {
 	display: none !important;
 }
 
