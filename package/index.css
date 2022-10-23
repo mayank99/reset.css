@@ -13,6 +13,10 @@
 :where(html) {
 	-webkit-text-size-adjust: none;
 	color-scheme: dark light;
+
+	@supports not (min-block-size: 100dvb) {
+		block-size: 100%;
+	}
 }
 
 @media (prefers-reduced-motion: no-preference) {
