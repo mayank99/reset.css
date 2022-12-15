@@ -15,12 +15,6 @@
 	color-scheme: dark light;
 }
 
-@supports not (min-block-size: 100dvb) {
-	:where(html) {
-		block-size: 100%;
-	}
-}
-
 @media (prefers-reduced-motion: no-preference) {
 	:where(html:focus-within) {
 		scroll-behavior: smooth;
