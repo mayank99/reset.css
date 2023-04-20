@@ -42,7 +42,6 @@
 
 :where(textarea) {
 	resize: vertical;
-	resize: block;
 }
 
 :where(button, label, select, summary, [role='button'], [role='option']) {
