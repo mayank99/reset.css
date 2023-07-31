@@ -58,7 +58,7 @@ Every project needs "visually hidden" styles for screenreader-only text, so this
 
 It's available through the `.visually-hidden` class and all the rules in it use `!important` so that they can't be overridden by a higher-priority layer.
 
-When a visually-hidden element is focused or an element inside it is focused, then these styles will automatically be undone. Additionally, a `.not-visually-hidden` class is available to undo these styles on some other condition.
+When a visually-hidden element is focused or an element inside it is focused, then these styles will automatically be undone.
 
 ### Focus outlines
 
