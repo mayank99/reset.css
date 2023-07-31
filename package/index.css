@@ -62,6 +62,7 @@
 }
 
 :where(a) {
+	color: inherit;
 	text-underline-offset: 0.2ex;
 }
 
