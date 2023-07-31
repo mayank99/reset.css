@@ -97,7 +97,7 @@
 :where(:focus-visible) {
 	outline: 2px solid var(--focus-color, Highlight);
 	outline-offset: 2px;
-	scroll-margin-block-start: 8rem;
+	scroll-margin-block: 8rem;
 }
 
 :where(.visually-hidden:not(:focus, :active, :focus-within, .not-visually-hidden)) {
