@@ -99,7 +99,7 @@
 	outline-offset: 2px;
 }
 
-:where(.visually-hidden:not(:focus, :active, :focus-within, .not-visually-hidden)) {
+:where(.visually-hidden:not(:focus-within, :active)) {
 	clip-path: inset(50%) !important;
 	height: 1px !important;
 	width: 1px !important;
