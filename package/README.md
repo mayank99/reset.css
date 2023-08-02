@@ -56,7 +56,7 @@ And then apply the first layer name while importing this reset.
 
 Every project needs "visually hidden" styles for screenreader-only text, so this reset has it built in.
 
-It's available through the `.visually-hidden` class and all the rules in it use `!important` so that they can't be overridden by a higher-priority layer.
+It's available through the `.visually-hidden` class and all the declarations in it use `!important` so that they can't be overridden by a higher-priority layer.
 
 When a visually-hidden element is focused or an element inside it is focused, then these styles will automatically be undone.
 
