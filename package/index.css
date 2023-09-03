@@ -66,7 +66,7 @@
 	display: block;
 }
 
-:where(img, picture, svg) {
+:where(img, picture, svg, video) {
 	max-inline-size: 100%;
 	block-size: auto;
 }
