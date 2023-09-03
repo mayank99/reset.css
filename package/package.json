@@ -1,12 +1,14 @@
 {
 	"name": "@acab/reset.css",
 	"version": "0.6.0",
-	"license": "MIT",
+	"type": "module",
+	"description": "a modern css reset for 2023 and beyond",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mayank99/reset.css.git"
+		"url": "git+https://github.com/mayank99/reset.css.git",
+		"directory": "package"
 	},
-	"type": "module",
+	"author": "Mayank",
 	"main": "index.css",
 	"exports": {
 		".": "./index.css"
