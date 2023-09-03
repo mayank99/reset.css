@@ -1,6 +1,21 @@
-MIT License
+Copyright (c) 2023 Mayank
 
-Copyright (c) 2022 Mayank
+The following license is modified from the MIT license.
+
+ANTI-FASCIST LICENSE:
+
+The following conditions must be met by any person obtaining a copy of this
+software:
+
+- You MAY NOT be a fascist.
+- You MUST not financially support fascists.
+- You MUST not publicly voice support for fascists.
+
+"Fascist" can be understood as any entity which supports radical authoritarian
+nationalism. For example: Donald Trump is a fascist; if you donated to his
+campaign then all rights provided by this license are not granted to you.
+
+MIT LICENSE:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
