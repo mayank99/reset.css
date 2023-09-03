@@ -77,6 +77,7 @@
 
 :where(h1, h2, h3) {
 	line-height: calc(1em + 0.5rem);
+	text-wrap: balance;
 }
 
 :where(hr) {
