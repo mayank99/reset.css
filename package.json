@@ -11,13 +11,12 @@
 		"dev": "turbo run dev --parallel"
 	},
 	"devDependencies": {
-		"prettier": "2",
+		"prettier": "^3.0.3",
 		"turbo": "latest"
 	},
 	"engines": {
 		"node": ">=18.0.0"
 	},
-	"dependencies": {},
 	"packageManager": "pnpm@8.6.11",
 	"prettier": {
 		"jsxSingleQuote": true,

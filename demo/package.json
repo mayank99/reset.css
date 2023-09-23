@@ -4,7 +4,7 @@
 	"type": "module",
 	"dependencies": {
 		"@acab/reset.css": "*",
-		"astro": "^1.5.0"
+		"astro": "^3.1.2"
 	},
 	"scripts": {
 		"dev": "astro dev",
