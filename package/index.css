@@ -92,7 +92,10 @@
 	outline: 3px solid CanvasText;
 	box-shadow: 0 0 0 5px Canvas;
 	outline-offset: 1px;
-	scroll-margin-block: 10vh;
+}
+
+:where(:focus-visible, :target) {
+	scroll-margin-block: 8vh;
 }
 
 :where(.visually-hidden:not(:focus-within, :active)) {
