@@ -27,6 +27,10 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+:where(button) {
+	all: unset;
+}
+
 :where(input, button, textarea, select) {
 	font: inherit;
 	color: inherit;
@@ -47,10 +51,6 @@
 
 :where(label:has(> input:disabled), label:has(+ input:disabled)) {
 	cursor: not-allowed;
-}
-
-:where(button) {
-	border-style: solid;
 }
 
 :where(a) {
