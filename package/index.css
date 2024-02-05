@@ -16,6 +16,10 @@
 	tab-size: 2;
 }
 
+:where(html:has(dialog:modal[open])) {
+	overflow: clip;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	:where(html:focus-within) {
 		scroll-behavior: smooth;
@@ -87,6 +91,16 @@
 	color: inherit;
 	block-size: 0;
 	overflow: visible;
+}
+
+:where(dialog) {
+	border: none;
+	background: none;
+	inset: unset;
+}
+
+:where(dialog:not([open])) {
+	display: none !important;
 }
 
 :where(:focus-visible) {
