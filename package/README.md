@@ -62,10 +62,10 @@ When a visually-hidden element is focused or an element inside it is focused, th
 
 ### Focus outlines
 
-By default, focus styles can be very inconsistent (and even inaccessible) across browsers. This reset normalizes them to a 3px solid outline that has the [`Highlight`](https://www.w3.org/TR/css-color-4/#system-color-values) color. The is a system color that adopts with the `color-scheme`. Depending on the background within a particular section, you might want to set the `color-scheme` property to maintain enough color contrast.
+By default, focus styles can be very inconsistent (and even inaccessible) across browsers. This reset normalizes them to a dual color outline that uses [system colors](https://www.w3.org/TR/css-color-4/#system-color-values) which adopt with the `color-scheme`. Depending on the background within a particular section, you might want to set the `color-scheme` property to maintain enough color contrast.
 
 To override the focus styles, you can specify your own `outline` (or just `outline-color`).
-```
+```css
 @layer globals {
   :focus-visible {
     outline-color: var(--my-brand);
