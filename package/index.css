@@ -14,6 +14,7 @@
 	-webkit-text-size-adjust: none;
 	color-scheme: dark light;
 	tab-size: 2;
+	scrollbar-gutter: stable;
 }
 
 :where(html:has(dialog:modal[open])) {
