@@ -14,6 +14,11 @@
 	-webkit-text-size-adjust: none;
 	color-scheme: dark light;
 	tab-size: 2;
+	scrollbar-gutter: stable;
+}
+
+:where(html:has(dialog:modal[open])) {
+	overflow: clip;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -87,6 +92,18 @@
 	color: inherit;
 	block-size: 0;
 	overflow: visible;
+}
+
+:where(dialog) {
+	border: none;
+	background: none;
+	inset: unset;
+	max-width: unset;
+	max-height: unset;
+}
+
+:where(dialog:not([open])) {
+	display: none !important;
 }
 
 :where(:focus-visible) {
