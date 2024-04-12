@@ -1,8 +1,8 @@
 {
 	"name": "@acab/reset.css",
-	"version": "0.8.0",
+	"version": "0.9.0",
 	"type": "module",
-	"description": "a modern css reset for 2023 and beyond",
+	"description": "a modern css reset for 2024 and beyond",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/mayank99/reset.css.git",
