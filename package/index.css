@@ -97,6 +97,8 @@
 	border: none;
 	background: none;
 	inset: unset;
+	max-width: unset;
+	max-height: unset;
 }
 
 :where(dialog:not([open])) {
