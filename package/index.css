@@ -102,7 +102,18 @@
 	max-height: unset;
 }
 
-:where(dialog:not([open])) {
+:where(dialog:not([open], [popover])) {
+	display: none !important;
+}
+
+:where([popover]) {
+	border: none;
+	background: none;
+	inset: unset;
+	color: inherit;
+}
+
+:where([popover]:not(:popover-open)) {
 	display: none !important;
 }
 
