@@ -8,6 +8,7 @@ A style reset that embraces modern CSS features to give you a better base to sta
 - Auto dark mode using `color-scheme`.
 - `system-ui` font pre-applied.
 - Accessible, consistent focus outlines.
+- Supports new features like `<dialog>` and `popover`.
 - `.visually-hidden` class baked in.
 
 See the [source code](https://github.com/mayank99/reset.css/blob/main/package/index.css) if you're curious about the full set of rules.
