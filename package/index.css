@@ -94,26 +94,16 @@
 	overflow: visible;
 }
 
-:where(dialog) {
+:where(dialog, [popover]) {
 	border: none;
 	background: none;
+	color: inherit;
 	inset: unset;
 	max-width: unset;
 	max-height: unset;
 }
 
-:where(dialog:not([open], [popover])) {
-	display: none !important;
-}
-
-:where([popover]) {
-	border: none;
-	background: none;
-	inset: unset;
-	color: inherit;
-}
-
-:where([popover]:not(:popover-open)) {
+:where(dialog:not([open], [popover]), [popover]:not(:popover-open)) {
 	display: none !important;
 }
 
