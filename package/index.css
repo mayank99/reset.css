@@ -15,6 +15,7 @@
 	color-scheme: dark light;
 	tab-size: 2;
 	scrollbar-gutter: stable;
+	interpolate-size: allow-keywords;
 }
 
 :where(html:has(dialog:modal[open])) {
