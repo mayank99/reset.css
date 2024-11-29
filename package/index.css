@@ -41,6 +41,8 @@
 :where(input, button, textarea, select) {
 	font: inherit;
 	color: inherit;
+	letter-spacing: inherit;
+  word-spacing: inherit;
 }
 
 :where(textarea) {
