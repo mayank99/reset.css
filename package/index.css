@@ -16,6 +16,7 @@
 	tab-size: 2;
 	scrollbar-gutter: stable;
 	interpolate-size: allow-keywords;
+	line-height: 1.5;
 }
 
 :where(html:has(dialog:modal[open])) {
@@ -29,7 +30,7 @@
 }
 
 :where(body) {
-	line-height: 1.5;
+	line-height: inherit;
 	font-family: system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
