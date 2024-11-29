@@ -44,6 +44,8 @@
 	color: inherit;
 	letter-spacing: inherit;
   word-spacing: inherit;
+	font-feature-settings: inherit;
+  font-variation-settings: inherit;
 }
 
 :where(textarea) {
