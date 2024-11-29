@@ -51,11 +51,7 @@
 	cursor: pointer;
 }
 
-:where(:disabled) {
-	cursor: not-allowed;
-}
-
-:where(label:has(> input:disabled), label:has(+ input:disabled)) {
+:where(:disabled, label:has(> :disabled, + disabled)) {
 	cursor: not-allowed;
 }
 
