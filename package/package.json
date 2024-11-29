@@ -1,6 +1,6 @@
 {
 	"name": "@acab/reset.css",
-	"version": "0.10.0",
+	"version": "0.11.0",
 	"type": "module",
 	"description": "a modern css reset for 2024 and beyond",
 	"repository": {
