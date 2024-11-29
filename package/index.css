@@ -101,6 +101,7 @@
 	inset: unset;
 	max-width: unset;
 	max-height: unset;
+	overflow: unset;
 }
 
 :where(dialog:not([open], [popover]), [popover]:not(:popover-open)) {
