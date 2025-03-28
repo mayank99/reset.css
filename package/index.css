@@ -88,6 +88,10 @@
 	text-wrap: balance;
 }
 
+:where(h1) {
+	font-size: 2em;
+}
+
 :where(hr) {
 	border: none;
 	border-block-start: 1px solid;
