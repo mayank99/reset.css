@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-:where([hidden]:not([hidden='until-found'])) {
+:where([hidden]:not([hidden="until-found"])) {
 	display: none !important;
 }
 
@@ -43,9 +43,9 @@
 	font: inherit;
 	color: inherit;
 	letter-spacing: inherit;
-  word-spacing: inherit;
+	word-spacing: inherit;
 	font-feature-settings: inherit;
-  font-variation-settings: inherit;
+	font-variation-settings: inherit;
 }
 
 :where(textarea) {
@@ -53,11 +53,11 @@
 	resize: block;
 }
 
-:where(button, label, select, summary, [role='button'], [role='option']) {
+:where(button, label, select, summary, [role="button"], [role="option"]) {
 	cursor: pointer;
 }
 
-:where(:disabled, label:has(> :disabled, + disabled)) {
+:where(:disabled, label:has(> :disabled, + :disabled)) {
 	cursor: not-allowed;
 }
 
